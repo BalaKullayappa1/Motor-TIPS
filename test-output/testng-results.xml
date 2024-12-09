@@ -1,88 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-06T11:08:01 IST" name="Default suite" finished-at="2024-12-06T11:08:31 IST" duration-ms="29258">
+  <suite started-at="2024-12-09T14:31:38 IST" name="Default suite" finished-at="2024-12-09T14:38:03 IST" duration-ms="385452">
     <groups>
     </groups>
-    <test started-at="2024-12-06T11:08:01 IST" name="Default test" finished-at="2024-12-06T11:08:31 IST" duration-ms="29258">
-      <class name="Utilities.RegCarXLData">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Utilities.RegCarXLData@3249a1ce]" started-at="2024-12-06T11:06:57 IST" name="setup" finished-at="2024-12-06T11:08:01 IST" duration-ms="64752" status="PASS">
+    <test started-at="2024-12-09T14:31:38 IST" name="Default test" finished-at="2024-12-09T14:38:03 IST" duration-ms="385452">
+      <class name="Registered_Private_car.Private_car">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Registered_Private_car.Private_car@4fe01805]" started-at="2024-12-09T14:31:05 IST" name="setup" finished-at="2024-12-09T14:31:38 IST" duration-ms="32703" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Utilities.RegCarXLData@3249a1ce]" started-at="2024-12-06T11:08:31 IST" name="tearDown" finished-at="2024-12-06T11:08:36 IST" duration-ms="5010" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=131.0.6778.87)
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b880b592c669fca61c116d07ae982b19, findElement {value=/html/body/dx-dijta-home-root/dx-vertical-layout/dx-layout/dx-layout-header/header/dx-dijta-home-header/dx-header/header/nav/ul/li[2]/a/div/div/div/p[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.87, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53863}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53863/devtoo..., se:cdpVersion: 131.0.6778.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b880b592c669fca61c116d07ae982b19]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=131.0.6778.87)
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b880b592c669fca61c116d07ae982b19, findElement {value=/html/body/dx-dijta-home-root/dx-vertical-layout/dx-layout/dx-layout-header/header/dx-dijta-home-header/dx-header/header/nav/ul/li[2]/a/div/div/div/p[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.87, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53863}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53863/devtoo..., se:cdpVersion: 131.0.6778.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b880b592c669fca61c116d07ae982b19
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-at Z_Base.Base_Agent.tearDown(Base_Agent.java:213)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:410)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Utilities.RegCarXLData -->
-      <class name="Registered_Private_car.Private_car">
-        <test-method is-config="true" signature="setReport()[pri:0, instance:Registered_Private_car.Private_car@352e612e]" started-at="2024-12-06T11:08:01 IST" name="setReport" finished-at="2024-12-06T11:08:04 IST" duration-ms="2648" status="PASS">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:Registered_Private_car.Private_car@4fe01805]" started-at="2024-12-09T14:31:38 IST" name="setReport" finished-at="2024-12-09T14:31:39 IST" duration-ms="994" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method signature="RegisteredCar(java.util.Hashtable,java.lang.reflect.Method)[pri:0, instance:Registered_Private_car.Private_car@352e612e]" started-at="2024-12-06T11:08:05 IST" name="RegisteredCar" data-provider="dp" finished-at="2024-12-06T11:08:21 IST" duration-ms="15418" status="FAIL">
+        <test-method signature="RegisteredCar(java.util.Hashtable,java.lang.reflect.Method)[pri:0, instance:Registered_Private_car.Private_car@4fe01805]" started-at="2024-12-09T14:31:39 IST" name="RegisteredCar" data-provider="dp" finished-at="2024-12-09T14:37:55 IST" duration-ms="375723" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{Test Case=Isuue Policy with Registred Vechile with Comprehensive Coverage, Vechcle Reg=VGE1519, Quote Status=, PH ID=760620086186, Gross Premium=, Garage Type=Locked Compound, Total Payable Premium=, Stamp Duty=, SST=, Vehicle Sum Insured=, Coverage Type=Comprehensive, Ploicy Number=, NCD=, Quote Number=, Place Of Use=Johor, Act Premium=, Scenario=Registred Vechile, Anti Theft=Others(WITH MECHANICAL DEVICE), Extra Benefits Total=, Rebate=, Name As Per ID=Santhosh1, Premium after NCD=, Safety Features=ABS & Airbags 1, Basic Premium=, Driving Experience=2 - 5 years, Sno=1.0}]]>
+                <![CDATA[{Test Case=Isuue Policy with Registred Vechile with Comprehensive Coverage, Vechcle Reg=JTQ3719, Quote Status=, PH ID=990803015587, Gross Premium=, Total Payable Premium=, Stamp Duty=, SST=, Vehicle Sum Insured=, Coverage Type=Comprehensive, NCD=, Quote Number=, Place Of Use=Johor, Act Premium=, Scenario=Registred Vechile, Extra Benefits Total=, Rebate=, Name As Per ID=Bala, Premium after NCD=, Basic Premium=, Driving Experience=2 - 5 years, Policy Number=, Sno=1.0}]]>
               </value>
             </param>
             <param index="1">
@@ -91,91 +28,28 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/dx-dijta-home-root/dx-vertical-layout/dx-layout/content/dx-dijta-home-root/dx-compact-content/dx-layout-content/div/dx-dijta-home-dashboard/div/dx-group-wrapper/div/dx-launchpad/div/div/div/div/dx-gridster-wrapper/gridster/gridster-item[6]/div/app-webcomponent-loader/div/dx-dijta-home-basic-tile/div/div[2]/button/span"}
-  (Session info: chrome=131.0.6778.87)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b880b592c669fca61c116d07ae982b19, findElement {value=/html/body/dx-dijta-home-root/dx-vertical-layout/dx-layout/content/dx-dijta-home-root/dx-compact-content/dx-layout-content/div/dx-dijta-home-dashboard/div/dx-group-wrapper/div/dx-launchpad/div/div/div/div/dx-gridster-wrapper/gridster/gridster-item[6]/div/app-webcomponent-loader/div/dx-dijta-home-basic-tile/div/div[2]/button/span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.87, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53863}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53863/devtoo..., se:cdpVersion: 131.0.6778.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b880b592c669fca61c116d07ae982b19]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/dx-dijta-home-root/dx-vertical-layout/dx-layout/content/dx-dijta-home-root/dx-compact-content/dx-layout-content/div/dx-dijta-home-dashboard/div/dx-group-wrapper/div/dx-launchpad/div/div/div/div/dx-gridster-wrapper/gridster/gridster-item[6]/div/app-webcomponent-loader/div/dx-dijta-home-basic-tile/div/div[2]/button/span"}
-  (Session info: chrome=131.0.6778.87)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b880b592c669fca61c116d07ae982b19, findElement {value=/html/body/dx-dijta-home-root/dx-vertical-layout/dx-layout/content/dx-dijta-home-root/dx-compact-content/dx-layout-content/div/dx-dijta-home-dashboard/div/dx-group-wrapper/div/dx-launchpad/div/div/div/div/dx-gridster-wrapper/gridster/gridster-item[6]/div/app-webcomponent-loader/div/dx-dijta-home-basic-tile/div/div[2]/button/span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.87, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53863}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53863/devtoo..., se:cdpVersion: 131.0.6778.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b880b592c669fca61c116d07ae982b19
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-at Z_Base.Base_Agent.Baseclick(Base_Agent.java:123)
-at Registered_Private_car.Private_car.RegisteredCar(Private_car.java:64)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisteredCar -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Registered_Private_car.Private_car@352e612e]" started-at="2024-12-06T11:08:21 IST" name="tearDown" finished-at="2024-12-06T11:08:21 IST" duration-ms="246" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Registered_Private_car.Private_car@4fe01805]" started-at="2024-12-09T14:37:55 IST" name="tearDown" finished-at="2024-12-09T14:37:55 IST" duration-ms="134" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=RegisteredCar status=FAILURE method=Private_car.RegisteredCar(java.util.Hashtable,java.lang.reflect.Method)[pri:0, instance:Registered_Private_car.Private_car@352e612e] output={null}]]]>
+                <![CDATA[[TestResult name=RegisteredCar status=SUCCESS method=Private_car.RegisteredCar(java.util.Hashtable,java.lang.reflect.Method)[pri:0, instance:Registered_Private_car.Private_car@4fe01805] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:Registered_Private_car.Private_car@352e612e]" started-at="2024-12-06T11:08:21 IST" name="endReport" finished-at="2024-12-06T11:08:31 IST" duration-ms="9580" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:Registered_Private_car.Private_car@4fe01805]" started-at="2024-12-09T14:37:55 IST" name="endReport" finished-at="2024-12-09T14:38:03 IST" duration-ms="8221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Registered_Private_car.Private_car@4fe01805]" started-at="2024-12-09T14:38:03 IST" name="tearDown" finished-at="2024-12-09T14:38:18 IST" duration-ms="14977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- Registered_Private_car.Private_car -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
